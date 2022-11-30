@@ -13,6 +13,7 @@ body {
     color: var(--primary-color);
     font-weight: 500;
     letter-spacing: 0.02em;
+    background-color: var(--white-color);
 }
 
 .list {
@@ -26,7 +27,7 @@ body {
 
 .section-title {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
     text-transform: capitalize;
     color: var(--dark-color);
@@ -44,6 +45,7 @@ body {
 }
 
 .button {
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
@@ -58,7 +60,6 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -77,7 +78,7 @@ body {
     color: var(--dark-color);
 }
 
-.menu-item:hower,
+.menu-item:hover,
 .menu-item:focus {
     color: var(--primary-color);
 }
@@ -92,16 +93,21 @@ body {
     line-height: 1.5;
 }
 
-.contacts-item:hower,
-.contacts-item:focus {
+.contacts:hover,
+.contacts:focus {
     color: var(--brand-color);
+    
 }
 
 /* Main */
 
+.hero {
+    background-color: var(--dark-color);
+}
+
 .hero-title {
     font-size: 56px;
-    line-height: 1.07px;
+    line-height: 1.07;
     color: var(--white-color);
 }
 
@@ -117,6 +123,9 @@ body {
 
 /* Footer */
 
+.footer {
+    background-color: var(--dark-color);
+}
 .part-logo-footer {
     color: var(--white-color);
 }
@@ -133,4 +142,10 @@ body {
     color: #4D5AE5;
     background-color: var(--light-color);
     border: 1px solid #E7E9FC;
+}
+
+.filter-btn:hover, 
+.filter-btn:focus {
+    color: var(--white-color);
+    background-color: var(--brand-color);
 }
